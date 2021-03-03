@@ -49,6 +49,6 @@ class ExampleUnitTest {
     fun solve6() {
         val input = arrayOf(arrayOf(100,100),arrayOf(100,100))
         val output = Service().solve(input)
-        assertEquals(200, output)
+        assertEquals(300, output)
     }
 }
